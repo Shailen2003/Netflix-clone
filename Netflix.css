@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("img/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+
+}
+
+.main .box {
+    background-color: black;
+    height: 95vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+.logo img {
+    color: red;
+    width: 144px;
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+    max-width: 155vh;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+    color: white;
+}
+
+.engbtn {
+    padding: 4px 20px;
+    border: 0.5px solid rgb(235, 229, 229);
+    background-color: rgb(39, 37, 37);
+}
+
+.signbtn {
+    padding: 6px 12px;
+    margin: 4px;
+    background-color: red;
+    border: none;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.h2 {
+    margin: 1rem 0 0;
+    font-size: 1.225rem;
+    font-weight: 400;
+    z-index: 10;
+}
+
+.h3 {
+    margin: 1rem 0 0;
+    font-size: 1.225rem;
+    font-weight: 400;
+    z-index: 10;
+}
+
+.search {
+    display: flex;
+    margin-top: 11px;
+    position: relative;
+    opacity: 0.84;
+    gap: 7px;
+}
+
+.search input {
+    position: relative;
+    font-size: 18px;
+    background-color: rgb(41, 38, 38);
+    padding: 15px 150px 15px 10px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    /* z-index: 10; */
+
+}
+
+.search button {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    padding: 15px 70px 15px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+.default {
+    margin-left: 10px;
+}
+
+.sepration {
+    height: 11px;
+    margin-top: 23px;
+    background-color: gray;
+}
+
+.box2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+    background-color: black;
+    height: 80vh;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.box2text {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 50PX;
+    color: white;
+    background-color: black;
+    height: 40vh;
+    width: 60vh;
+    font-size: 27px;
+}
+
+.box2text h1 {
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.box2img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 324px;
+    width: 454px;
+}
+.box2img img {
+    position: relative;
+    z-index: 10;
+    height: 324px;
+    width: 454px;
+}
+.video2{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    width: 332px;
+}
+.video2 video {
+    position: relative;
+    height: 260px;
+    width: 332px;
+    top: -300px;
+    left: 60px;
+}
+.box3 {
+    position: relative;
+    display: flex;
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+}
+.box3text {
+    position: relative;
+    color: white;
+    background-color: black; 
+    height: 50vh;
+    width: 62vh;
+    left: 190px;
+    top: 170px;
+    font-size: 27px;
+}
+.box3text h1 {
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+.box3img{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 60vh;
+    width: 70vh;
+}
+.box3img1 img{
+    position: relative;
+    height: 60vh;
+    width: 80vh;
+}
+.box3download{
+    position: relative;
+    display: flex;
+    border: 2px solid rgb(130, 121, 121);
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    height: 110px;
+    width: 330px;
+    left: 125px;
+    top: -140px;
+}
+.box3download p{
+    color: blue;
+}
+.box3download img{
+    position: relative;
+    padding: 10px;
+    height: 90px;
+    width: 60px;
+}
