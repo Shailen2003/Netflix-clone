@@ -237,7 +237,20 @@ nav button {
     top: -140px;
 }
 .box3download p{
+    position: relative;
+    /* display: flex; */
+    top: 54px;
+    left: -100px;
     color: blue;
+    height: 20px;
+    font-size: 17px;
+}
+.box3download span{
+    position: relative;
+    top: 37px;
+    left: 8px;
+    font-size: 17px;
+    height: 20px;
 }
 .box3download img{
     position: relative;
