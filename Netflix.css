@@ -129,8 +129,8 @@ nav button {
 
 .sepration {
     height: 11px;
-    margin-top: 23px;
-    background-color: gray;
+    margin-top: -5px;
+    background-color: rgb(75, 72, 72);
 }
 
 .box2{
@@ -257,4 +257,59 @@ nav button {
     padding: 10px;
     height: 90px;
     width: 60px;
+}
+.box4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+}
+.box4text {
+   
+    position: relative;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 230px;
+    width: 550px;
+    font-size: 27px;
+    top: 170px;
+    left: -100px;
+}
+.box4text h1 {
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.box4img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    width: 460px;
+    top: 97px;
+}
+.box4img img {
+    position: relative;
+    z-index: 10;
+    height: 330px;
+    width: 460px;
+}
+.video4{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 171px;
+    width: 297px;
+    top: -302px;
+    left: 77px;
+}
+.video4 video {
+    position: relative;
+    height: 166px;
+    width: 295px;
+    top: -8px;
+    left: 4px;
 }
